@@ -1,4 +1,4 @@
-const CelebrantModel = require("../model/celebrants");
+const CelebrantModel = require("../model/Celebrants");
 
 exports.postCelebrant = async (req, res, next)=>{
     const {body} = req;
